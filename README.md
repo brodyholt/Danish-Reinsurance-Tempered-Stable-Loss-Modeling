@@ -21,7 +21,7 @@ ___
 ## Contents
 
 1. [Motivation](#1-motivation)
-2. [Actuarially Relevant Results](#2-actuarially-relevant-results)
+2. [Results](#2-results)
 3. [Limitations](#3-limitations)
 4. [Future Directions](#4-future-directions)
 
