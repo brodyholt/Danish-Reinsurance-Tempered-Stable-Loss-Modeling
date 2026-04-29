@@ -71,29 +71,33 @@ ___
 
 ## 3. Limitations
 
-**Single dataset scope.**
+### **Single dataset scope.**
 The analysis was conducted on one dataset covering one country, one peril, and one historical period (Denmark, fire, 1980–1990).
 
-### **Simulation-based GOF testing.**
+### **Simulation-based Goodness-of-fit testing.**
 Goodness-of-fit testing (Kolmogorov-Smirnov, Anderson-Darling) relied on a two-sample simulation approach rather than direct CDF evaluation. This is because a CDF evaluation would require inversion of the characteristic function via fast Fourier transform followed by numerical integration, a computationally expensive process. Simulation of tempered stable quantities is relatively quick via accept-reject sampling with stable quantities generated using the Chambers, Mallows and Stuck method. This introduces additional variance and as such these values should be interpreted as relative rankings across models.
 
+### **Full-range Pareto benchmark.**
+The Pareto model was fitted via full-range MLE rather than threshold-based GPD fitting, likely understating its true tail performance.
 
+**Frequency model sensitivity.**
+A Poisson model was selected as the frequency component for aggregate loss simulation. Another model such as negative binomial may be more appropriate, although this was not thoroughly investigated. 
 
 
 ---
 
 ## 4. Future Directions
 
-**Uncertainty quantification.**
+### **Uncertainty quantification.**
 Provide confidence intervals for parameter estimates and test statistics to diagnose reliability.
 
-**POT/GPD as a comparative benchmark.**
+### **POT/GPD as a comparative benchmark.**
 Fit generalized Pareto distribution using stability-plot threshold selection, yielding a more rigorous heavy-tail benchmark.
 
-**Reinsurance layer pricing.**
+### **Reinsurance layer pricing.**
 Complete the layer pricing analysis across a full tower of excess-of-loss layers, translating distributional findings into a reinsurance pricing workflow. 
 
-**Multi-dataset replication.**
+### **Multi-dataset replication.**
 Apply the pipeline to additional datasets to establish replicability across lines of business and loss characteristics.
 
 
