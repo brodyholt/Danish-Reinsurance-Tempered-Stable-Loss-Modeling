@@ -19,7 +19,7 @@
     <img src="images/cdfPlot.png" alt="CDF plot">
     <em>Visual indicator of body fit.</em>
     </td>
-    <td><img src="images/loglogSurvivalPlot.png" alt="Survival function">
+    <td><img src="images/loglogSurvivalPlot.png" alt="Survival plot">
     <em>Visual indicator of tail fit.</em>
     </td>
   </tr>
