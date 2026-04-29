@@ -23,7 +23,7 @@ ___
 1. [Motivation](#1-motivation)
 2. [Results](#2-results)
 3. [Limitations](#3-limitations)
-4. [Future Directions](#4-future-directions)
+4. [To do](#4-to-do)
 
 ---
 
@@ -75,7 +75,7 @@ ___
 
 ---
 
-## 4. Todo
+## 4. To do
 
 
 ---
