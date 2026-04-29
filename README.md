@@ -9,6 +9,15 @@
 
 ---
 
+<p align="center">
+  <img src="images/cdfPlot.png" width="45%" alt="MEL plot">
+  &nbsp;&nbsp;
+  <img src="images/loglogSurvivalPlot.png" width="45%" alt="Survival function">
+</p>
+
+
+___
+
 ## Contents
 
 1. [Motivation](#1-motivation)
