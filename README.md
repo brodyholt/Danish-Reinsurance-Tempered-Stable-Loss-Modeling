@@ -86,7 +86,7 @@ The tempered stable model outperforms all models across statistics. Fit can be v
 
 ### Aggregate Loss Simulation — Tail Value at Risk (millions DKK)
 
-Aggregate loss simulation was performed with a frequency distribution given by Poisson model fitted to the annual claim counts. 
+Aggregate loss simulation was performed with a frequency distribution given by a Poisson model fitted to the annual claim counts. 
 
 | Confidence | Weibull | Lognormal | Pareto | **Tempered Stable** |
 |:---|---:|---:|---:|---:|
