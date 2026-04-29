@@ -66,7 +66,7 @@ Tempered stable parameters were estimated via cumulant matching (method of momen
 | `δ` | Scale | 0.2624210 | 0.2666983 |
 | `λ` | Tempering | 0.007245232 | 0.007270770 |
 
-A stability value `α = 0.835` suggests a very heavy underlying stable tail, with the small tempering value `λ = 0.007` suggesting light tempering primarilty in the extreme tails of the distribution. 
+A stability value `α = 0.835` suggests a very heavy underlying stable tail, with the small tempering value `λ = 0.007` suggesting light tempering primarily in the extreme tails of the distribution. 
 
 
 ### Goodness-of-Fit Statistics
