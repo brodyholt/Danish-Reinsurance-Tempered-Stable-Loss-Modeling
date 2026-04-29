@@ -17,10 +17,10 @@
   <tr>
     <td>
     <img src="images/cdfPlot.png" alt="CDF plot">
-    <em>Figure 1. Hill estimator plot — convergence near α ≈ 1.5 at k = 500 order statistics.</em>
+    <em>Visual indicator of body fit.</em>
     </td>
     <td><img src="images/loglogSurvivalPlot.png" alt="Survival function">
-    <em>Figure 1. Hill estimator plot — convergence near α ≈ 1.5 at k = 500 order statistics.</em>
+    <em>Visual indicator of tail fit.</em>
     </td>
   </tr>
 </table>
