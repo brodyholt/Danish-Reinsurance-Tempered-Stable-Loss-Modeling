@@ -41,11 +41,11 @@ ___
 
 Severity loss modeling involves a delicate balance. Lighter-tailed models underrepresent large losses, while heavier-tailed models often introduce complications such as the possibility of infinite moments, rendering important actuarial quantities (TVAR, LEV, aggregate loss moments) mathematically undefined. 
 
-Tempered stable distributions offer a solution by exponentially dampening the tails of a stable distribution, allowing for heavy-tail flexibility while restoring finite moments of all orders. 
+Tempered stable distributions offer a solution by exponentially dampening the tails of a stable distribution, allowing for heavy-tail flexibility while restoring finite moments of all orders. Specifically for positive-valued loss data, we can utilize the positively-skewed tempered stable subordinator distribution. 
 
-Their use is not without complications. They do not generally possess closed-form distributions or density functions, however their infinite divisibility yields a closed-form cumulant function (log characteristic function) as a result of the Lévy–Khintchine theorem.
+They do not generally possess closed-form distributions or density functions, however their infinite divisibility yields a closed-form cumulant function (log characteristic function) as a result of the Lévy–Khintchine theorem.
 
-$$ \varphi(z) $$
+$$ \varphi(z) = \delta \int_{0}_{infinity} \left(\exp{izx}-1\right)  $$
 
 ---
 
