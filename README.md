@@ -47,6 +47,7 @@ ___
 
 ### Parameter Estimation
 
+Tempered stable parameters were estimated via cumulant matching (method of moments) and then via maximum likelihood estimation. The estimates from cumulant matching were used as the initial values for the numerical MLE routine. Both sets of estimates were virtually identical.
 
 | Parameter | Description | MoM Estimate | MLE Estimate |
 |:---|:---|---:|---:|
@@ -54,9 +55,12 @@ ___
 | `δ` | Scale | 0.2624210 | 0.2666983 |
 | `λ` | Tempering | 0.007245232 | 0.007270770 |
 
+A stability value `α = 0.835` suggests a very heavy underlying stable tail, with the small tempering value `λ = 0.007` suggesting light tempering primarilty in the extreme tails of the distribution. 
 
 
 ### Goodness-of-Fit Statistics
+
+The Kolmogorov-Smirnov and Anderson-Darling tests were performed empirically via simulation of all fitted models, comparing with the actual ground-up losses. 
 
 | Statistic | Weibull | Lognormal | Pareto | **Tempered Stable** |
 |:---|---:|---:|---:|---:|
@@ -66,8 +70,12 @@ ___
 | BIC | 9,622.61	 | 8,131.16 | 9,261.03 | **6,886.10** |
 | Negative Log-Likelihood | 4,803.62 | 4,057.90 | 	4,622.83 | **3,431.53** |
 
+The tempered stable model outperforms all models across statistics. Fit can be visually confirmed via CDF and log-log survival plots in figures 1 and 2 respectively. 
+
 
 ### Aggregate Loss Simulation — Tail Value at Risk (millions DKK)
+
+
 
 | Confidence | Weibull | Lognormal | Pareto | **Tempered Stable** |
 |:---|---:|---:|---:|---:|
