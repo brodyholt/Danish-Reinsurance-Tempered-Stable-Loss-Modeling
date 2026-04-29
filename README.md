@@ -1,6 +1,6 @@
-# Tempered Stable Distributions for Actuarial Loss Modeling
+# Danish Reinsurance Loss Modeling with Tempered Stable Distribution 
 
-> A comparative feasibility study — Danish Fire Reinsurance Dataset · Preliminary Analysis
+> A comparative feasibility study with the Danish fire reinsurance dataset
 
 ![Language](https://img.shields.io/badge/language-R-276DC3)
 ![Dataset](https://img.shields.io/badge/dataset-CAS%20Danish%20Fire-gray)
