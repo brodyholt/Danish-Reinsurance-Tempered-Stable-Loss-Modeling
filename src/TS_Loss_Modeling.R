@@ -5,13 +5,12 @@
 
 # ── Load Libraries ─────────────────────────────────────────────────────────────
 
-#install.packages(c("stabledist", "TempStable", "tidyverse", "CASdatasets", "ggplot2", "actuar", "twosamples", "evir", "gt"), repos = c("https://cas.uqam.ca/pub/", "https://cran.r-project.org"))
+#install.packages(c("stabledist", "TempStable", "tidyverse", "CASdatasets", "actuar", "twosamples", "evir", "gt"), repos = c("https://cas.uqam.ca/pub/", "https://cran.r-project.org"))
 
 library(stabledist)
 library(TempStable)
 library(tidyverse)
 library(CASdatasets)
-library(ggplot2)
 library(actuar)
 library(fitdistrplus)
 library(twosamples)
