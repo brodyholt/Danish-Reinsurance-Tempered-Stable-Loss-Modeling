@@ -48,6 +48,7 @@ ___
 
 ### Goodness-of-Fit Statistics
 
+Two-sample KS and AD test P-values in parenthesis
 | Statistic | Weibull | Lognormal | Pareto | **Tempered Stable** |
 |:---|---:|---:|---:|---:|
 | Kolmogorov–Smirnov | 0.2851869 (5.74e-77)| 0.1365944 (5.52e-18) | 0.3114905 (9.73e-92) | **0.03137979** (**0.24**) |
