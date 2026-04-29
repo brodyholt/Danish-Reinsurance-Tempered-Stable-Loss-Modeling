@@ -70,18 +70,20 @@ The Kolmogorov-Smirnov and Anderson-Darling tests were performed empirically via
 | BIC | 9,622.61	 | 8,131.16 | 9,261.03 | **6,886.10** |
 | Negative Log-Likelihood | 4,803.62 | 4,057.90 | 	4,622.83 | **3,431.53** |
 
-The tempered stable model outperforms all models across statistics. Fit can be visually confirmed via CDF and log-log survival plots in figures 1 and 2 respectively. 
+The tempered stable model outperforms all models across statistics. Fit can be visually confirmed via CDF and log-log survival plots in figures 1 and 2 respectively. The large difference in Anderson-Darling statistics between the tempered stable model and others suggests the differences in fit are concentrated in the tail. 
 
 
 ### Aggregate Loss Simulation — Tail Value at Risk (millions DKK)
 
-
+Aggregate loss simulation was performed with a frequency distribution given by Poisson model fitted to the annual claim counts. 
 
 | Confidence | Weibull | Lognormal | Pareto | **Tempered Stable** |
 |:---|---:|---:|---:|---:|
 | 90% | 784.5450 | 652.0194 | 755.8840 | **926.1195** |
 | 95% | 808.1441 | 669.2237 | 780.4087 | **1000.5268** |
 | 99% | 854.6111 | 704.1185 | 833.1602 | **1197.8941** |
+
+The tempered stable TVaR exceeded all models, with a widening gap as confidence level increases. This represents a consequential difference for solvency regulation and reinsurance pricing.  
 
 
 
