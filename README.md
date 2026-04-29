@@ -16,7 +16,9 @@
   </tr>
   <tr>
     <td><img src="images/cdfPlot.png" alt="CDF plot"></td>
+    <em>Figure 1. Hill estimator plot — convergence near α ≈ 1.5 at k = 500 order statistics.</em>
     <td><img src="images/loglogSurvivalPlot.png" alt="Survival function"></td>
+    <em>Figure 1. Hill estimator plot — convergence near α ≈ 1.5 at k = 500 order statistics.</em>
   </tr>
 </table>
 
