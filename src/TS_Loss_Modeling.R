@@ -5,7 +5,7 @@
 
 # ── Load Libraries ─────────────────────────────────────────────────────────────
 
-#install.packages(c("stabledist", "TempStable", "tidyverse", "CASdatasets", "actuar", "twosamples", "evir", "gt"), repos = c("https://cas.uqam.ca/pub/", "https://cran.r-project.org"))
+#install.packages(c("stabledist", "TempStable", "tidyverse", "CASdatasets", "actuar", "fitdistrplus", "twosamples", "evir", "gt"), repos = c("https://cas.uqam.ca/pub/", "https://cran.r-project.org"))
 
 library(stabledist)
 library(TempStable)
