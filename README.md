@@ -5,7 +5,7 @@
 ![Language](https://img.shields.io/badge/language-R-276DC3)
 ![Dataset](https://img.shields.io/badge/dataset-CAS%20Danish%20Fire%20Reinsurance-gray)
 ![Status](https://img.shields.io/badge/status-preliminary-yellow)
-![Best Fit](https://img.shields.io/badge/best%20fit-Tempered%20Stable-2d6a4a)
+![Best Fit](https://img.shields.io/badge/best%20fit-Tempered%20Stable-red)
 
 ---
 
