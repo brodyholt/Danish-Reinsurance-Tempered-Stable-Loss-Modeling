@@ -1,4 +1,4 @@
-# Danish Reinsurance Loss Modeling with Tempered Stable Distribution 
+# Danish Reinsurance Loss Modeling with Tempered Stable Model
 
 > A comparative feasibility study with the Danish fire reinsurance dataset
 
