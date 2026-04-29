@@ -16,7 +16,7 @@
   </tr>
   <tr>
     <td>
-      <img src="images/cdfPlot.png" alt="CDF plot">
+      <img src="images/cdfPlot.png" width = 200 alt="CDF plot">
       <em>Visual indicator of body fit.</em>
     </td>
     <td>
