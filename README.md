@@ -9,13 +9,16 @@
 
 ---
 
-<p align="center">
-  <img src="images/cdfPlot.png" width="45%" alt="MEL plot">
-  &nbsp;&nbsp;
-  <img src="images/loglogSurvivalPlot.png" width="45%" alt="Survival function">
-   <em>Figure 2. Comparison of Log-Log Survival Functions. Actual versus fitted distributions. Tempered stable is calculated empirically via simulation. </em>
-</p>
-
+<table>
+  <tr>
+    <td><b>Caption 1</b></td>
+    <td><b>Caption 2</b></td>
+  </tr>
+  <tr>
+    <td><img src="images/cdfPlot.png" width="45%" alt="MEL plot"></td>
+    <td><img src="images/loglogSurvivalPlot.png" width="45%" alt="Survival function"></td>
+  </tr>
+</table>
 
 ___
 
