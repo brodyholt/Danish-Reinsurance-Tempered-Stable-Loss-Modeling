@@ -1,6 +1,6 @@
-# Tempered Stable Distributions for Actuarial Loss Modeling
+# Danish Reinsurance Loss Modeling with Tempered Stable Model
 
-> A comparative feasibility study — Danish Fire Reinsurance Dataset · Preliminary Analysis
+> A comparative feasibility study with the Danish fire reinsurance dataset
 
 ![Language](https://img.shields.io/badge/language-R-276DC3)
 ![Dataset](https://img.shields.io/badge/dataset-CAS%20Danish%20Fire-gray)
@@ -8,6 +8,15 @@
 ![Best Fit](https://img.shields.io/badge/best%20fit-Tempered%20Stable-2d6a4a)
 
 ---
+
+<p align="center">
+  <img src="images/cdfPlot.png" width="45%" alt="MEL plot">
+  &nbsp;&nbsp;
+  <img src="images/loglogSurvivalPlot.png" width="45%" alt="Survival function">
+</p>
+
+
+___
 
 ## Contents
 
@@ -31,30 +40,35 @@
 
 | Parameter | Description | MoM Estimate | MLE Estimate |
 |:---|:---|---:|---:|
-| `α` | Stability index | 0.840 | 0.830 |
-| `δ` | Scale | 0.262 | 0.266 |
-| `λ` | Tempering | 0.00724 | 0.00727 |
+| `α` | Stability index | 0.8450893 | 0.8354441 |
+| `δ` | Scale | 0.2624210 | 0.2666983 |
+| `λ` | Tempering | 0.007245232 | 0.007270770 |
 
 
 
-### Goodness-of-Fit Comparison
+### Goodness-of-Fit Statistics
 
 | Statistic | Weibull | Lognormal | Pareto | **Tempered Stable** |
 |:---|---:|---:|---:|---:|
-| Kolmogorov–Smirnov | 0.2560 | 0.1396 | 0.3110 | **0.0559** |
-| Anderson–Darling | 959,452.90 | 406,183.90 | 1,205,179.19 | **52,052.02** |
-| AIC | 9,251.95 | 7,968.26 | 9,137.61 | **6,793.84** |
-| BIC | 9,263.31 | 7,979.62 | 9,148.97 | **6,810.88** |
-| Negative Log-Likelihood | 4,623.98 | 3,982.13 | 4,566.80 | **3,393.92** |
+| Kolmogorov–Smirnov | 0.2851869 | 0.1365944 | 0.3114905 | **0.03137979** |
+| Anderson–Darling | 	1,152,499.37 | 375,209.78 | 1,188,175.61 | **17,669.24** |
+| AIC | 9,611.24 | 8,119.79 | 9,249.67 | **6,869.06** |
+| BIC | 9,622.61	 | 8,131.16 | 9,261.03 | **6,886.10** |
+| Negative Log-Likelihood | 4,803.62 | 4,057.90 | 	4,622.83 | **3,431.53** |
 
+### Two-Sample Test P-Values
+| Statistic | Weibull | Lognormal | Pareto | Tempered Stable |
+|:---|---:|---:|---:|---:|
+| Kolmogorov–Smirnov | 5.735636e-77 | 5.516509e-18 | 9.72657e-92	 | **0.2363743** |
+| Anderson–Darling | 2.500000e-04 | 2.500000e-04 | 2.500000e-04 | **0.0910000** |
 
 ### Aggregate Loss Simulation — TVaR (millions DKK)
 
 | Confidence | Weibull | Lognormal | Pareto | **Tempered Stable** |
 |:---|---:|---:|---:|---:|
-| 90% | 811.00 | 713.01 | 800.08 | **866.70** |
-| 95% | 847.54 | 745.11 | 837.58 | **922.87** |
-| 99% | 922.25 | 808.47 | 913.08 | **1,051.23** |
+| 90% | 784.5450 | 652.0194 | 755.8840 | **926.1195** |
+| 95% | 808.1441 | 669.2237 | 780.4087 | **1000.5268** |
+| 99% | 854.6111 | 704.1185 | 833.1602 | **1197.8941** |
 
 
 
