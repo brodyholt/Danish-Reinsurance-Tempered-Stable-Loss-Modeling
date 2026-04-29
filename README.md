@@ -15,11 +15,13 @@
     <td><b>Figure 2: Log-Log Survival Plot.</b></td>
   </tr>
   <tr>
-    <td><img src="images/cdfPlot.png" alt="CDF plot">
+    <td>
+    <img src="images/cdfPlot.png" alt="CDF plot">
     <em>Figure 1. Hill estimator plot — convergence near α ≈ 1.5 at k = 500 order statistics.</em>
     </td>
-    <td><img src="images/loglogSurvivalPlot.png" alt="Survival function"></td>
+    <td><img src="images/loglogSurvivalPlot.png" alt="Survival function">
     <em>Figure 1. Hill estimator plot — convergence near α ≈ 1.5 at k = 500 order statistics.</em>
+    </td>
   </tr>
 </table>
 
