@@ -67,7 +67,7 @@ ___
 | Negative Log-Likelihood | 4,803.62 | 4,057.90 | 	4,622.83 | **3,431.53** |
 
 
-### Aggregate Loss Simulation — TVaR (millions DKK)
+### Aggregate Loss Simulation — Tail Value at Risk (millions DKK)
 
 | Confidence | Weibull | Lognormal | Pareto | **Tempered Stable** |
 |:---|---:|---:|---:|---:|
