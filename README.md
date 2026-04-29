@@ -99,7 +99,7 @@ A Poisson model was selected as the frequency component for aggregate loss simul
 ## 4. Future Directions
 
 ### **Uncertainty quantification.**
-Provide confidence intervals for parameter estimates and test statistics to diagnose reliability.
+Provide confidence intervals for parameter estimates, test statistics and TVaR to diagnose reliability.
 
 ### **POT/GPD as a comparative benchmark.**
 Fit generalized Pareto distribution using stability-plot threshold selection, yielding a more rigorous heavy-tail benchmark.
