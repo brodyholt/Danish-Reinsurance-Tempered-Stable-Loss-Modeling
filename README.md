@@ -94,11 +94,15 @@ Provide confidence intervals for parameter estimates and test statistics to diag
 ### **POT/GPD as a comparative benchmark.**
 Fit generalized Pareto distribution using stability-plot threshold selection, yielding a more rigorous heavy-tail benchmark.
 
+### **Alpha-stable as a comparative benchmark.**
+It may also be worthwhile to fit a classical alpha-stable model as this provides another heavy-tail benchmark.
+
 ### **Reinsurance layer pricing.**
 Complete the pricing analysis across a full tower of excess-of-loss layers, translating distributional findings into a reinsurance pricing workflow. 
 
 ### **Multi-dataset replication.**
 Apply the pipeline to additional datasets to establish replicability across lines of business and loss characteristics.
+
 
 
 ---
