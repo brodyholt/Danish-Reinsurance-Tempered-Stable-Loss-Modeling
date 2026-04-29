@@ -80,7 +80,7 @@ Goodness-of-fit testing (Kolmogorov-Smirnov, Anderson-Darling) relied on a two-s
 ### **Full-range Pareto benchmark.**
 The Pareto model was fitted via full-range MLE rather than threshold-based GPD fitting, likely understating its true tail performance.
 
-**Frequency model sensitivity.**
+### **Frequency model sensitivity.**
 A Poisson model was selected as the frequency component for aggregate loss simulation. Another model such as negative binomial may be more appropriate, although this was not thoroughly investigated. 
 
 
