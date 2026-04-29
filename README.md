@@ -16,11 +16,11 @@
   </tr>
   <tr>
     <td>
-      <img src="images/cdfPlot.png" width = 200 alt="CDF plot">
+      <img src="images/cdfPlot.png" width = 500 alt="CDF plot">
       <em>Visual indicator of body fit.</em>
     </td>
     <td>
-      <img src="images/loglogSurvivalPlot.png" width = 200 alt="Survival plot">
+      <img src="images/loglogSurvivalPlot.png" width = 500 alt="Survival plot">
       <em>Visual indicator of tail fit.</em>
     </td>
   </tr>
