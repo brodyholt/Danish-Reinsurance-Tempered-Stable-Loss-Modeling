@@ -77,6 +77,18 @@ ___
 
 ## 4. Future Directions
 
+**Uncertainty quantification.**
+Provide confidence intervals for parameter estimates and test statistics to diagnose reliability.
+
+**POT/GPD as a comparative benchmark.**
+Fit generalized Pareto distribution using stability-plot threshold selection, yielding a more rigorous heavy-tail benchmark.
+
+**Reinsurance layer pricing.**
+Complete the layer pricing analysis across a full tower of excess-of-loss layers, translating distributional findings into a reinsurance pricing workflow. 
+
+**Multi-dataset replication.**
+Apply the pipeline to additional datasets to establish replicability across lines of business and loss characteristics.
+
 
 ---
 
