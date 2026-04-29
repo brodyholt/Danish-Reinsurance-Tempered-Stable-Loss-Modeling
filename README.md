@@ -15,8 +15,8 @@
     <td><b>Caption 2</b></td>
   </tr>
   <tr>
-    <td><img src="images/cdfPlot.png" width="45%" alt="MEL plot"></td>
-    <td><img src="images/loglogSurvivalPlot.png" width="45%" alt="Survival function"></td>
+    <td><img src="images/cdfPlot.png" alt="CDF plot"></td>
+    <td><img src="images/loglogSurvivalPlot.png" alt="Survival function"></td>
   </tr>
 </table>
 
