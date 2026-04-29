@@ -45,7 +45,8 @@ Tempered stable distributions offer a solution by exponentially dampening the ta
 
 They do not generally possess closed-form distributions or density functions, however their infinite divisibility yields a closed-form cumulant function (log characteristic function) as a result of the Lévy–Khintchine theorem.
 
-$$ \varphi(z) = \delta \int_{0}^{infinity} \left(\exp{izx}-1\right)  $$
+$$ \varphi(z) = \delta \int_{0}^{\nfty} \left(e^{izx}-1\right)  $$
+
 
 ---
 
