@@ -110,7 +110,7 @@ ts_loglikelihood <- sum(log(dTSS(df$Loss,alpha = fit_TS@par[1], delta = fit_TS@p
 ts_aic <- 2*3 - 2 * sum(log(dTSS(df$Loss,alpha = fit_TS@par[1], delta = fit_TS@par[2], lambda = fit_TS@par[3])))
 
 # Bayesian information criterion
-ts_bic <- 3 * log(length(df$Loss)) - 2 * sum(log(dTSS(df$Loss,alpha = fit_TS@par[1], delta = fit_TS@par[2], lambda = fit_TS@par[3])))
+ts_bic <- 3 * log(length(df$Loss)) - 2 * sum(log(dTSS(df$Loss, alpha = fit_TS@par[1], delta = fit_TS@par[2], lambda = fit_TS@par[3])))
 
 
 # ── CDF Plot ────────────────────────────────────────────────────────────────────
