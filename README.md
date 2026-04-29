@@ -75,7 +75,7 @@ ___
 The analysis was conducted on one dataset covering one country, one peril, and one historical period (Denmark, fire, 1980–1990).
 
 ### **Simulation-based Goodness-of-fit testing.**
-Goodness-of-fit testing (Kolmogorov-Smirnov, Anderson-Darling) relied on a two-sample simulation approach rather than direct CDF evaluation. This is because a CDF evaluation would require inversion of the characteristic function via fast Fourier transform followed by numerical integration, a computationally expensive process. Simulation of tempered stable quantities is relatively quick via accept-reject sampling with stable quantities generated using the Chambers, Mallows and Stuck method. This introduces additional variance and as such these values should be interpreted as relative rankings across models.
+Goodness-of-fit testing (Kolmogorov-Smirnov, Anderson-Darling) relied on a two-sample simulation approach rather than direct CDF evaluation. This is because a CDF evaluation would require inversion of the characteristic function via fast Fourier transform followed by numerical integration, a slow and computationally expensive process. Simulation of tempered stable quantities is relatively quick via accept-reject sampling with stable quantities generated exactly using the Chambers, Mallows and Stuck method. This introduces additional variance. As such these values should be interpreted as relative rankings across models.
 
 ### **Full-range Pareto benchmark.**
 The Pareto model was fitted via full-range MLE rather than threshold-based GPD fitting, likely understating its true tail performance.
