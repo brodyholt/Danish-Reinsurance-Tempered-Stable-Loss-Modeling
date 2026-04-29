@@ -11,7 +11,7 @@
 
 <table>
   <tr>
-    <td><b>Figure 1: Cumulative Distribution Functions.</b></td>
+    <td><b>Figure 1: Cumulative Distribution Plot.</b></td>
     <td><b>Figure 2: Log-Log Survival Plot.</b></td>
   </tr>
   <tr>
