@@ -48,20 +48,14 @@ ___
 
 ### Goodness-of-Fit Statistics
 
-Two-sample KS and AD test P-values in parenthesis
 | Statistic | Weibull | Lognormal | Pareto | **Tempered Stable** |
 |:---|---:|---:|---:|---:|
-| Kolmogorov–Smirnov | 0.2851869 (5.74e-77)| 0.1365944 (5.52e-18) | 0.3114905 (9.73e-92) | **0.03137979** (**0.24**) |
-| Anderson–Darling | 	1,152,499.37 (2.5e-04)| 375,209.78 (2.5e-04) | 1,188,175.61 (2.5e-04) | **17,669.24** (**0.09**) |
+| Kolmogorov–Smirnov (P-value) | 0.2851869 (5.74e-77)| 0.1365944 (5.52e-18) | 0.3114905 (9.73e-92) | **0.03137979** (**0.24**) |
+| Anderson–Darling (P-value) | 	1,152,499.37 (2.5e-04)| 375,209.78 (2.5e-04) | 1,188,175.61 (2.5e-04) | **17,669.24** (**0.09**) |
 | AIC | 9,611.24 | 8,119.79 | 9,249.67 | **6,869.06** |
 | BIC | 9,622.61	 | 8,131.16 | 9,261.03 | **6,886.10** |
 | Negative Log-Likelihood | 4,803.62 | 4,057.90 | 	4,622.83 | **3,431.53** |
 
-### Two-Sample Test P-Values
-| Statistic | Weibull | Lognormal | Pareto | Tempered Stable |
-|:---|---:|---:|---:|---:|
-| Kolmogorov–Smirnov | 5.735636e-77 | 5.516509e-18 | 9.72657e-92	 | **0.2363743** |
-| Anderson–Darling | 2.500000e-04 | 2.500000e-04 | 2.500000e-04 | **0.0910000** |
 
 ### Aggregate Loss Simulation — TVaR (millions DKK)
 
