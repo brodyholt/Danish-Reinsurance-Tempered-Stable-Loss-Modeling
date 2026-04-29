@@ -47,7 +47,7 @@ They do not generally possess closed-form distributions or density functions, ho
 
 $$ \varphi(z) = \delta \int_{0}^{\infty} \left(e^{izx}-1\right) \frac{e^{-\lambda x}}{x^{\alpha + 1}} dx = \delta \Gamma(-\alpha) [(\lambda - iz)^{\alpha} - \lambda^{\alpha}].  $$
 
-This is a three parameter model. The stability index `α` provides a measure of tail-heaviness (smaller values correspond to heavier tails). The tempering parameter `λ` determines the degree of exponential dampening (larger values lead to lighter tails). The parameter `δ` is a general scale parameter. 
+This is a three-parameter model. The stability index `α` provides a measure of tail-heaviness (smaller values correspond to heavier tails). The tempering parameter `λ` determines the degree of exponential dampening (larger values lead to lighter tails). The parameter `δ` is a general scale parameter. 
 
 The analysis was performed on the Danish fire reinsurance dataset from the CAS (computational actuarial science) library. It features 2167 fire losses from 1980 to 1990. It is a classic heavy-tailed loss severity dataset with a hill estimator of roughly 1.5 and a linearly increasing mean excess plot. 
 
