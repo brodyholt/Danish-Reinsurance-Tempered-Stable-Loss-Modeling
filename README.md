@@ -39,7 +39,7 @@ ___
 
 ## 1. Motivation
 
-Severity loss modeling involves a delicate balance. Lighter-tailed models underrepresent large losses, while heavier-tailed models often introduce complications such as the possibility of infinite moments, rendering important actuarial quantities (TVaR, LEV, aggregate loss moments) mathematically undefined. 
+Severity loss modeling involves a delicate balance. Lighter-tailed models underrepresent large losses, while heavier-tailed models often introduce complications such as the possibility of infinite moments, which can render important actuarial quantities (TVaR, LEV, aggregate loss moments) mathematically undefined. 
 
 Tempered stable distributions offer a solution by exponentially dampening the tails of a stable distribution, allowing for heavy-tail flexibility while restoring finite moments of all orders. Specifically for positive-valued loss data, we can utilize the positively-skewed tempered stable subordinator distribution. 
 
